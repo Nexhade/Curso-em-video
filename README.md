@@ -1,9 +1,19 @@
-Curso em vídeo
+# Curso em Vídeo – Python 3
 
-Crio este repositório para fins dicaticos, e também de demostrar minha evolução na lingugem de programação python3, todos os exercicios que aqui contem de vem de um canal no youtube chamado Curso em vídeo tem que como professor uma pessoa que admiro, Gutavo Guanabara, deixo aqui meus agradecimentos a ele e let's code!!!
+Este repositório foi criado com fins **didáticos**, com o objetivo de **documentar minha evolução na linguagem de programação Python 3**.
 
-## Tecnologias
-Python 3.x
+Aqui estão reunidos exercícios e exemplos desenvolvidos durante meus estudos, todos baseados no conteúdo do canal **Curso em Vídeo**, ministrado pelo professor **Gustavo Guanabara**, a quem deixo meus agradecimentos pelo excelente material.
 
-## Como executar
+O foco deste repositório é consolidar fundamentos da linguagem, lógica de programação e boas práticas iniciais, servindo também como portfólio de aprendizado.
+
+---
+
+## 🛠 Tecnologias utilizadas
+- Python 3.x
+
+---
+
+## ▶️ Como executar
+Certifique-se de ter o Python 3 instalado e execute:
+
 python nome_do_arquivo.py
