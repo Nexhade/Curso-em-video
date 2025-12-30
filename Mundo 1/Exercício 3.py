@@ -1,12 +1,14 @@
-"""Crie um programa que leia dois números e mostre a soma entre eles."""
+#Crie um programa que leia dois números e mostre a soma entre eles
 
 from os import system
 
 system("clear")
 
-print("--- Soma de dois números ---\n")
+print('Soma entre dois números\n')
 
-num1 = int(input("Digite o primeiro número: "))
-num2 = int(input("Digite o segundo número: "))
+num1 = float(input("Digite o primeiro número: "))
+num2 = float(input("Digite o segundo número: "))
 
-print(f"\nA soma dos dois número é igual a {num1 + num2}")
+system("clear")
+
+print(f'{num1} + {num2} = {num1+num2}')

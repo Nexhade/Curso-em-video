@@ -1,14 +1,23 @@
-#Crie um programa que leia dois números e mostre a soma entre eles
+# Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo.
+# E também todas as informações sobre ele.
 
 from os import system
 
-system("clear")
+system('clear')
 
-print('Soma entre dois números\n')
+usuario = input("Digite algo e abaixo vai ter o seu tipo primito: ")
 
-num1 = float(input("Digite o primeiro número: "))
-num2 = float(input("Digite o segundo número: "))
 
-system("clear")
 
-print(f'{num1} + {num2} = {num1+num2}')
+
+if usuario.isdigit() == True:
+    print(f"\n{usuario} é um número inteiro!")
+elif isinstance(usuario, str):
+    print(f'\n"{usuario}" -> É uma string ou algum variate como float, boleano, etc...')
+    print(f'O tipo primito é {type(usuario)}')
+    print(f'A string só tem espaço: {usuario.isspace()}')
+    print(f'É um valor númerico inteiro: {usuario.isdigit()}')
+    print(f'')
+
+else:
+    print('\nValor não identificado, tente novamente :)')
