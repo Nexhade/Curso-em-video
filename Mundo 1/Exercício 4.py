@@ -17,7 +17,9 @@ elif isinstance(usuario, str):
     print(f'O tipo primito é {type(usuario)}')
     print(f'A string só tem espaço: {usuario.isspace()}')
     print(f'É um valor númerico inteiro: {usuario.isdigit()}')
-    print(f'')
+    print(f'Está toda em Maiúscula?: {usuario.isupper()}')
+    print(f'Está tudo em Minúscula?: {usuario.islower()}')
+    print(f'EStá capitalizada?: {usuario.capitalize()}')
 
 else:
     print('\nValor não identificado, tente novamente :)')
