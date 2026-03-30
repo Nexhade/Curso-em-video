@@ -15,5 +15,5 @@ lista = [aluno1, aluno2, aluno3, aluno4]
 
 system('clear')
 
-print(f'O aluno escolhido foi: {random.choices(lista)}')
+print(f'O aluno escolhido foi: {random.choice(lista)}')
 
